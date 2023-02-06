@@ -19,5 +19,10 @@ For more information on how to this works with other frontends/backends, head ov
 
 # Getting started
 
-> npm install, npm start, etc.
+```shell
+make
+# under the hood it runs the following commands
+# go build github.com/tunght13488/realworld-go
+# ./realworld-go
+```
 
