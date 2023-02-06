@@ -21,8 +21,7 @@ For more information on how to this works with other frontends/backends, head ov
 
 ```shell
 make
-# under the hood it runs the following commands
-# go build github.com/tunght13488/realworld-go
-# ./realworld-go
+# or
+go run github.com/tunght13488/realworld-go
 ```
 

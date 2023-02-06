@@ -1,4 +1,7 @@
-default: build run
+default: dev
+
+dev:
+	go run github.com/tunght13488/realworld-go
 
 build:
 	go build github.com/tunght13488/realworld-go
