@@ -25,6 +25,10 @@ type LoginPayload struct {
 	User Credentials `json:"user"`
 }
 
+type UserPayload struct {
+	User models.User `json:"user"`
+}
+
 func Login(c echo.Context) error {
 	var payload LoginPayload
 	if err := c.Bind(&payload); err != nil {
