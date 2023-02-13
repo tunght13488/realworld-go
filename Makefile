@@ -10,4 +10,7 @@ build:
 run:
 	./realworld-go
 
-.PHONY: default build run
+test:
+	go test -v ./...
+
+.PHONY: default dev build run test
